@@ -15,4 +15,4 @@ I think the most important thing is to inspect the tex file in the main director
 
 *I use vim, but I can recommend TexMaker for windows platforms. I recommend using lualatex compile option here to*
 
-![The sacret title page](title_page.pdf)
+![The sacret title page](title_page.png)
