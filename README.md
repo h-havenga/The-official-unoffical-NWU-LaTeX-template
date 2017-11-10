@@ -1,14 +1,13 @@
 # The-unofficial-unoffical-NWU-LaTeX-template
 
-This is a unofficial LaTeX template for the NWU, I do not own it or take any responsibity for it.
+This is a unofficial LaTeX template for the NWU, I do not own it or take any responsibility for it.
 
 I assume you know more or less what you're doing if you're on github and using latex.The Preamble is in the /main/??.tex directory. To compile without any options do: 
 
 $ cd main 
-
 $ lualatex nwu_unofficial_latex.tex 
 
-If you have figured things more or less out, have a glossary and bibliography with citations I uaslly do this twice or so:
+If you have figured things more or less out, have a glossary and bibliography with citations I usually do this twice or so: 
 
 $ makeglossaries nwu_unofficial_latex && bibtex nwu_unofficial_latex && lualatex nwu_unofficial_latex.tex 
 
