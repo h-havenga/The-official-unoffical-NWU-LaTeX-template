@@ -14,3 +14,5 @@ $ makeglossaries nwu_unofficial_latex && bibtex nwu_unofficial_latex && lualatex
 I think the most important thing is to inspect the tex file in the main directory, things will make more sense then. Remember to remove the \lipsum call to get rid of the random lipsum text.
 
 *I use vim, but I can recommend TexMaker for windows platforms. I recommend using lualatex compile option here to*
+
+![The sacret title page](title_page.png)
