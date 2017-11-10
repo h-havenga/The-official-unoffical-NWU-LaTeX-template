@@ -4,13 +4,16 @@ This is a unofficial LaTeX template for the NWU, I do not own it or take any res
 
 I assume you know more or less what you're doing if you're on github and using latex.The Preamble is in the /main/??.tex directory. To compile without any options do: 
 
+{% begin highlight  bash%}
 $ cd main 
 
 $ lualatex nwu_unofficial_latex.tex 
+{% endhighlight %}
 
 If you have figured things more or less out, have a glossary and bibliography with citations I usually do this twice or so: 
-
+{% begin highlight  bash%}
 $ makeglossaries nwu_unofficial_latex && bibtex nwu_unofficial_latex && lualatex nwu_unofficial_latex.tex 
+{% endhighlight %}
 
 I think the most important thing is to inspect the tex file in the main directory, things will make more sense then. Remember to remove the \lipsum call to get rid of the random lipsum text.
 
