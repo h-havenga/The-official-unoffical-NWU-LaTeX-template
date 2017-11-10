@@ -2,7 +2,7 @@
 
 This is a unofficial LaTeX template for the NWU, I do not own it or take any responsibility for it.
 
-I assume you know more or less what you're doing if you're on github and using latex.The preamble lives in the /main/lualatex nwu_unofficial_latex.tex directory. To compile without any options do: 
+I assume you know more or less what you're doing if you're on github and using latex.The preamble lives in the /main/nwu_unofficial_latex.tex directory. To compile without any options do: 
 
 ```bash
 $ cd main 
