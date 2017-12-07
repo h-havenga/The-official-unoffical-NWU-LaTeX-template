@@ -21,4 +21,4 @@ I think the most important thing is to inspect the tex file in the main director
 
 ![The title page](title_page.png)
 
-**NOTE: The NWU recently changed its primary colors, make sure you aware of this when using this template.
+**NOTE: The NWU recently changed its primary colors, make sure you aware of this when using this template.**
