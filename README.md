@@ -1,4 +1,4 @@
-# The-unofficial-unoffical-NWU-LaTeX-template
+# The-unoffical-NWU-LaTeX-template
 
 This is a unofficial LaTeX template for the NWU, I do not own it or take any responsibility for it.
 
@@ -19,4 +19,6 @@ I think the most important thing is to inspect the tex file in the main director
 
 *I use vim, but I can recommend TexMaker for windows platforms. I recommend using lualatex compile option here to*
 
-![The sacret title page](title_page.png)
+![The title page](title_page.png)
+
+**NOTE: The NWU recently changed its primary colors, make sure you aware of this when using this template.
