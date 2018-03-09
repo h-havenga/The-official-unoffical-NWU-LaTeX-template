@@ -25,6 +25,8 @@
 \graphicspath{{../figures/}} % Directory where pictures are stored
 \usepackage{pdflscape}
 \usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usepackage{fancyhdr}
 
 %% Inclusion of other packages
 \usepackage[sort&compress,round,semicolon,authoryear]{natbib}
@@ -55,7 +57,7 @@
   {\normalfont\huge\bfseries\centering}
   {\chaptertitlename\ \thechapter}{-5pt}{\huge}
   \titlespacing*{\chapter}{0pt}{-50pt}{10pt}
-  
+
 \titlespacing*{\section}
 {0pt}{1ex plus 1ex minus .2ex}{1ex plus .2ex}
 
@@ -101,12 +103,23 @@
 \setlength\cftparskip{0pt}
 \setlength\cftbeforechapskip{0pt}
 
+%% OrcID inline logo 
+\newcommand*{\img}[1]{%
+    \raisebox{-.3\baselineskip}{%
+        \includegraphics[
+        height=\baselineskip,
+        width=\baselineskip,
+        keepaspectratio,
+        ]{#1}%
+    }%
+}
+
 %% Pdf Metadata
 \hypersetup{
-    pdftitle={Latex is for cool kids},
-    pdfsubject={Not Computer Science},
-    pdfauthor={Piet Pompies},
-    pdfkeywords={Linux, LaTeX, Debian, Github}
+pdftitle={Latex},
+pdfsubject={Not Computer Science},
+pdfauthor={Piet},
+pdfkeywords={typing}
 }
 
 % document begin
@@ -183,25 +196,28 @@
 \newpage
 
 %--------------------------------------------------------------------
-%	Chapter 3: Study Area, Data & Methods
+%	Chapter 3: Study Area, Data & Method
 %--------------------------------------------------------------------
 \input{../4data&methods/data&methods.tex}
 \newpage
 
 %--------------------------------------------------------------------
-%	Chapter 4: 
+%	Chapter 4: Identification of synoptic indicators associated with
+%	severe hailstorms
 %--------------------------------------------------------------------
 \input{../6objective1/objective1.tex}
 \newpage
 
 %--------------------------------------------------------------------
-%	Chapter 5: 
+%	Chapter 5: Identification of synoptic drivers associated with
+%	severe hailstorms
 %--------------------------------------------------------------------
 \input{../7objective2/objective2.tex}
 \newpage
 
 %--------------------------------------------------------------------
-%	Chapter 6: 
+%	Chapter 6: Spatial and temporal trends of Hailstorms over the
+%	Highveld
 %--------------------------------------------------------------------
 \input{../8objective3/objective3.tex}
 \newpage

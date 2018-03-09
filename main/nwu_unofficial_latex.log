@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2017.10.31)  9 NOV 2017 23:40
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2018.3.8)  9 MAR 2018 09:20
  restricted system commands enabled.
 **nwu_unofficial_latex.tex
 (./nwu_unofficial_latex.tex
@@ -34,8 +34,8 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.105 seconds
-Babel <3.14> and hyphenation patterns for 1 language(s) loaded.
+luaotfload | main : initialization completed in 0.114 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -87,106 +87,102 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/10/04 3.14 The Babel package
+Package: babel 2018/02/14 3.18 The Babel package
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/10/04 3.14 Babel switching mechanism
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 \l@dumylang=\language2
-Package babel Info: Non-standard hyphenation setup on input line 112.
+Package babel Info: Non-standard hyphenation setup on input line 113.
 \l@nohyphenation=\language3
-\l@french=\language4
-\l@ukrainian=\language5
-\l@italian=\language6
-\l@ngerman=\language7
-\l@polish=\language8
-\l@pinyin=\language9
-\l@bokmal=\language10
-\l@swedish=\language11
-\l@arabic=\language12
-\l@romansh=\language13
-\l@coptic=\language14
+\l@czech=\language4
+\l@bengali=\language5
+\l@coptic=\language6
+\l@italian=\language7
+\l@uppersorbian=\language8
+\l@monogreek=\language9
+\l@ukenglish=\language10
+\l@galician=\language11
+\l@greek=\language12
+\l@slovenian=\language13
+\l@afrikaans=\language14
 \l@danish=\language15
-\l@assamese=\language16
-\l@monogreek=\language17
-\l@basque=\language18
-\l@esperanto=\language19
-\l@lithuanian=\language20
-\l@telugu=\language21
-\l@irish=\language22
-\l@ancientgreek=\language23
-\l@turkmen=\language24
-\l@friulan=\language25
-\l@serbian=\language26
-\l@catalan=\language27
-\l@kurmanji=\language28
-\l@interlingua=\language29
-\l@oriya=\language30
-\l@portuguese=\language31
-\l@bulgarian=\language32
-\l@farsi=\language33
-\l@afrikaans=\language34
-\l@latvian=\language35
-\l@churchslavonic=\language36
-\l@tamil=\language37
-\l@panjabi=\language38
-\l@hungarian=\language39
-\l@mongolianlmc=\language40
-\l@nynorsk=\language41
-\l@bengali=\language42
-\l@ngerman-x-2017-03-31=\language43
-\l@slovak=\language44
-\l@mongolian=\language45
-\l@serbianc=\language46
-\l@piedmontese=\language47
-\l@estonian=\language48
-\l@greek=\language49
-\l@ukenglish=\language50
-\l@galician=\language51
-\l@occitan=\language52
-\l@finnish=\language53
-\l@ethiopic=\language54
-\l@swissgerman=\language55
-\l@malayalam=\language56
-\l@spanish=\language57
-\l@czech=\language58
-\l@hindi=\language59
-\l@slovenian=\language60
-\l@classiclatin=\language61
-\l@gujarati=\language62
-\l@armenian=\language63
-\l@georgian=\language64
-\l@indonesian=\language65
-\l@turkish=\language66
-\l@sanskrit=\language67
-\l@ibycus=\language68
-\l@uppersorbian=\language69
-\l@kannada=\language70
-\l@thai=\language71
-\l@russian=\language72
-\l@latin=\language73
-\l@belarusian=\language74
-\l@welsh=\language75
-\l@croatian=\language76
-\l@liturgicallatin=\language77
-\l@marathi=\language78
-\l@romanian=\language79
-\l@dutch=\language80
-\l@german-x-2017-03-31=\language81
-\l@german=\language82
-\l@icelandic=\language83
-\l@usenglishmax=\language84
+\l@panjabi=\language16
+\l@lithuanian=\language17
+\l@armenian=\language18
+\l@portuguese=\language19
+\l@ibycus=\language20
+\l@estonian=\language21
+\l@kannada=\language22
+\l@hungarian=\language23
+\l@churchslavonic=\language24
+\l@swedish=\language25
+\l@belarusian=\language26
+\l@esperanto=\language27
+\l@latin=\language28
+\l@serbianc=\language29
+\l@mongolian=\language30
+\l@farsi=\language31
+\l@finnish=\language32
+\l@catalan=\language33
+\l@ngerman=\language34
+\l@tamil=\language35
+\l@ukrainian=\language36
+\l@bokmal=\language37
+\l@oriya=\language38
+\l@bulgarian=\language39
+\l@arabic=\language40
+\l@spanish=\language41
+\l@french=\language42
+\l@german-x-2017-03-31=\language43
+\l@serbian=\language44
+\l@marathi=\language45
+\l@interlingua=\language46
+\l@turkmen=\language47
+\l@sanskrit=\language48
+\l@latvian=\language49
+\l@russian=\language50
+\l@nynorsk=\language51
+\l@german=\language52
+\l@welsh=\language53
+\l@polish=\language54
+\l@icelandic=\language55
+\l@mongolianlmc=\language56
+\l@hindi=\language57
+\l@ethiopic=\language58
+\l@slovak=\language59
+\l@irish=\language60
+\l@piedmontese=\language61
+\l@romanian=\language62
+\l@classiclatin=\language63
+\l@indonesian=\language64
+\l@dutch=\language65
+\l@usenglishmax=\language66
+\l@swissgerman=\language67
+\l@georgian=\language68
+\l@ancientgreek=\language69
+\l@turkish=\language70
+\l@assamese=\language71
+\l@pinyin=\language72
+\l@basque=\language73
+\l@kurmanji=\language74
+\l@liturgicallatin=\language75
+\l@friulan=\language76
+\l@romansh=\language77
+\l@malayalam=\language78
+\l@thai=\language79
+\l@ngerman-x-2017-03-31=\language80
+\l@gujarati=\language81
+\l@telugu=\language82
+\l@occitan=\language83
+\l@croatian=\language84
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/10/04 3.14 Babel common definitions
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/10/04 3.14 Babel switching mechanism
-)
+File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen111
 
@@ -323,7 +319,7 @@ File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hologo.sty
-Package: hologo 2016/05/16 v1.12 A logo collection with bookmark support (HO)
+Package: hologo 2017/05/01 v1.13 A logo collection with bookmark support (HO)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
@@ -345,7 +341,7 @@ Package ifluatex Info: LuaTeX detected.
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
 
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
@@ -405,7 +401,7 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: luatex.def on input line 99.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2017/06/24 v1.0f Graphics/color driver for luatex
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
 \Gin@req@height=\dimen128
 \Gin@req@width=\dimen129
@@ -740,119 +736,140 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texlive/texmf-dist/tex/latex/tikzpagenodes/tikzpagenodes.sty
+Package: tikzpagenodes 2012/09/16 v1.1 Special PGF/TikZ nodes for areas of the p
+age
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count122
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
+)
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
+\bibhang=\skip55
+\bibsep=\skip56
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count122
+\c@NAT@ctr=\count123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/09/18 L3 programming layer (loader) 
+Package: expl3 2018/02/21 L3 programming layer (loader) 
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/09/18 L3 programming layer (code)
+Package: expl3 2018/02/21 L3 programming layer (code)
 \ucharcat@table=\catcodetable5
-\c_max_int=\count123
-\l_tmpa_int=\count124
-\l_tmpb_int=\count125
-\g_tmpa_int=\count126
-\g_tmpb_int=\count127
-\g__intarray_font_int=\count128
-\g__prg_map_int=\count129
-\c_log_iow=\count130
-\l_iow_line_count_int=\count131
-\l__iow_line_target_int=\count132
-\l__iow_one_indent_int=\count133
-\l__iow_indent_int=\count134
+\c_max_int=\count124
+\l_tmpa_int=\count125
+\l_tmpb_int=\count126
+\g_tmpa_int=\count127
+\g_tmpb_int=\count128
+\g__intarray_font_int=\count129
+\g__prg_map_int=\count130
+\c_log_iow=\count131
+\l_iow_line_count_int=\count132
+\l__iow_line_target_int=\count133
+\l__iow_one_indent_int=\count134
+\l__iow_indent_int=\count135
 \c_zero_dim=\dimen185
 \c_max_dim=\dimen186
 \l_tmpa_dim=\dimen187
 \l_tmpb_dim=\dimen188
 \g_tmpa_dim=\dimen189
 \g_tmpb_dim=\dimen190
-\c_zero_skip=\skip48
-\c_max_skip=\skip49
-\l_tmpa_skip=\skip50
-\l_tmpb_skip=\skip51
-\g_tmpa_skip=\skip52
-\g_tmpb_skip=\skip53
+\c_zero_skip=\skip57
+\c_max_skip=\skip58
+\l_tmpa_skip=\skip59
+\l_tmpb_skip=\skip60
+\g_tmpa_skip=\skip61
+\g_tmpb_skip=\skip62
 \c_zero_muskip=\muskip10
 \c_max_muskip=\muskip11
 \l_tmpa_muskip=\muskip12
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count135
-\c__fp_leading_shift_int=\count136
-\c__fp_middle_shift_int=\count137
-\c__fp_trailing_shift_int=\count138
-\c__fp_big_leading_shift_int=\count139
-\c__fp_big_middle_shift_int=\count140
-\c__fp_big_trailing_shift_int=\count141
-\c__fp_Bigg_leading_shift_int=\count142
-\c__fp_Bigg_middle_shift_int=\count143
-\c__fp_Bigg_trailing_shift_int=\count144
-\c__fp_rand_size_int=\count145
-\c__fp_rand_four_int=\count146
-\c__fp_rand_eight_int=\count147
-\l__sort_length_int=\count148
-\l__sort_min_int=\count149
-\l__sort_top_int=\count150
-\l__sort_max_int=\count151
-\l__sort_true_max_int=\count152
-\l__sort_block_int=\count153
-\l__sort_begin_int=\count154
-\l__sort_end_int=\count155
-\l__sort_A_int=\count156
-\l__sort_B_int=\count157
-\l__sort_C_int=\count158
-\l__tl_build_start_index_int=\count159
-\l__tl_build_index_int=\count160
-\l__tl_analysis_normal_int=\count161
-\l__tl_analysis_index_int=\count162
-\l__tl_analysis_nesting_int=\count163
-\l__tl_analysis_type_int=\count164
-\l__regex_internal_a_int=\count165
-\l__regex_internal_b_int=\count166
-\l__regex_internal_c_int=\count167
-\l__regex_balance_int=\count168
-\l__regex_group_level_int=\count169
-\l__regex_mode_int=\count170
-\c__regex_cs_in_class_mode_int=\count171
-\c__regex_cs_mode_int=\count172
-\l__regex_catcodes_int=\count173
-\l__regex_default_catcodes_int=\count174
-\c__regex_catcode_L_int=\count175
-\c__regex_catcode_O_int=\count176
-\c__regex_catcode_A_int=\count177
-\c__regex_all_catcodes_int=\count178
-\l__regex_show_lines_int=\count179
-\l__regex_min_state_int=\count180
-\l__regex_max_state_int=\count181
-\l__regex_left_state_int=\count182
-\l__regex_right_state_int=\count183
-\l__regex_capturing_group_int=\count184
-\l__regex_min_pos_int=\count185
-\l__regex_max_pos_int=\count186
-\l__regex_curr_pos_int=\count187
-\l__regex_start_pos_int=\count188
-\l__regex_success_pos_int=\count189
-\l__regex_curr_char_int=\count190
-\l__regex_curr_catcode_int=\count191
-\l__regex_last_char_int=\count192
-\l__regex_case_changed_char_int=\count193
-\l__regex_curr_state_int=\count194
-\l__regex_step_int=\count195
-\l__regex_min_active_int=\count196
-\l__regex_max_active_int=\count197
-\l__regex_replacement_csnames_int=\count198
-\l__regex_match_count_int=\count199
-\l__regex_min_submatch_int=\count266
-\l__regex_submatch_int=\count267
-\l__regex_zeroth_submatch_int=\count268
-\g__debug_trace_regex_int=\count269
+\l_keys_choice_int=\count136
+\c__fp_leading_shift_int=\count137
+\c__fp_middle_shift_int=\count138
+\c__fp_trailing_shift_int=\count139
+\c__fp_big_leading_shift_int=\count140
+\c__fp_big_middle_shift_int=\count141
+\c__fp_big_trailing_shift_int=\count142
+\c__fp_Bigg_leading_shift_int=\count143
+\c__fp_Bigg_middle_shift_int=\count144
+\c__fp_Bigg_trailing_shift_int=\count145
+\c__fp_rand_size_int=\count146
+\c__fp_rand_four_int=\count147
+\c__fp_rand_eight_int=\count148
+\l__sort_length_int=\count149
+\l__sort_min_int=\count150
+\l__sort_top_int=\count151
+\l__sort_max_int=\count152
+\l__sort_true_max_int=\count153
+\l__sort_block_int=\count154
+\l__sort_begin_int=\count155
+\l__sort_end_int=\count156
+\l__sort_A_int=\count157
+\l__sort_B_int=\count158
+\l__sort_C_int=\count159
+\l__tl_build_start_index_int=\count160
+\l__tl_build_index_int=\count161
+\l__tl_analysis_normal_int=\count162
+\l__tl_analysis_index_int=\count163
+\l__tl_analysis_nesting_int=\count164
+\l__tl_analysis_type_int=\count165
+\l__regex_internal_a_int=\count166
+\l__regex_internal_b_int=\count167
+\l__regex_internal_c_int=\count168
+\l__regex_balance_int=\count169
+\l__regex_group_level_int=\count170
+\l__regex_mode_int=\count171
+\c__regex_cs_in_class_mode_int=\count172
+\c__regex_cs_mode_int=\count173
+\l__regex_catcodes_int=\count174
+\l__regex_default_catcodes_int=\count175
+\c__regex_catcode_L_int=\count176
+\c__regex_catcode_O_int=\count177
+\c__regex_catcode_A_int=\count178
+\c__regex_all_catcodes_int=\count179
+\l__regex_show_lines_int=\count180
+\l__regex_min_state_int=\count181
+\l__regex_max_state_int=\count182
+\l__regex_left_state_int=\count183
+\l__regex_right_state_int=\count184
+\l__regex_capturing_group_int=\count185
+\l__regex_min_pos_int=\count186
+\l__regex_max_pos_int=\count187
+\l__regex_curr_pos_int=\count188
+\l__regex_start_pos_int=\count189
+\l__regex_success_pos_int=\count190
+\l__regex_curr_char_int=\count191
+\l__regex_curr_catcode_int=\count192
+\l__regex_last_char_int=\count193
+\l__regex_case_changed_char_int=\count194
+\l__regex_curr_state_int=\count195
+\l__regex_step_int=\count196
+\l__regex_min_active_int=\count197
+\l__regex_max_active_int=\count198
+\l__regex_replacement_csnames_int=\count199
+\l__regex_match_count_int=\count266
+\l__regex_min_submatch_int=\count267
+\l__regex_submatch_int=\count268
+\l__regex_zeroth_submatch_int=\count269
+\g__regex_trace_regex_int=\count270
 \c_empty_box=\box43
 \l_tmpa_box=\box44
 \l_tmpb_box=\box45
@@ -896,18 +913,18 @@ Package: expl3 2017/09/18 L3 programming layer (code)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count270
+\l__driver_color_stack_int=\count271
 \l__driver_tmp_box=\box58
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2017/09/18 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count271
-\g__xparse_grabber_int=\count272
-\l__xparse_m_args_int=\count273
-\l__xparse_mandatory_args_int=\count274
-\l__xparse_v_nesting_int=\count275
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count272
+\g__xparse_grabber_int=\count273
+\l__xparse_m_args_int=\count274
+\l__xparse_mandatory_args_int=\count275
+\l__xparse_v_nesting_int=\count276
 )
-Package: siunitx 2017/08/02 v2.7j A comprehensive (SI) units package
+Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
@@ -922,37 +939,37 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \col@sep=\dimen273
 \extrarowheight=\dimen274
 \NC@list=\toks39
-\extratabsurround=\skip54
-\backup@length=\skip55
+\extratabsurround=\skip63
+\backup@length=\skip64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box59
 \l__siunitx_tmp_dim=\dimen275
-\l__siunitx_tmp_int=\count276
-\l__siunitx_number_mantissa_length_int=\count277
-\l__siunitx_number_uncert_length_int=\count278
-\l__siunitx_round_int=\count279
-\l__siunitx_process_decimal_int=\count280
-\l__siunitx_process_uncertainty_int=\count281
-\l__siunitx_process_fixed_int=\count282
-\l__siunitx_process_integer_min_int=\count283
-\l__siunitx_process_precision_int=\count284
-\l__siunitx_group_min_int=\count285
+\l__siunitx_tmp_int=\count277
+\l__siunitx_number_mantissa_length_int=\count278
+\l__siunitx_number_uncert_length_int=\count279
+\l__siunitx_round_int=\count280
+\l__siunitx_process_decimal_int=\count281
+\l__siunitx_process_uncertainty_int=\count282
+\l__siunitx_process_fixed_int=\count283
+\l__siunitx_process_integer_min_int=\count284
+\l__siunitx_process_precision_int=\count285
+\l__siunitx_group_min_int=\count286
 \l__siunitx_angle_marker_box=\box60
 \l__siunitx_angle_unit_box=\box61
 \l__siunitx_angle_marker_dim=\dimen276
 \l__siunitx_angle_unit_dim=\dimen277
-\l__siunitx_unit_int=\count286
-\l__siunitx_unit_denominator_int=\count287
-\l__siunitx_unit_numerator_int=\count288
-\l__siunitx_unit_prefix_int=\count289
-\l__siunitx_unit_prefix_base_int=\count290
-\l__siunitx_unit_prefix_gram_int=\count291
-\l__siunitx_number_product_int=\count292
-\c__siunitx_one_fill_skip=\skip56
-\l__siunitx_table_unit_align_skip=\skip57
+\l__siunitx_unit_int=\count287
+\l__siunitx_unit_denominator_int=\count288
+\l__siunitx_unit_numerator_int=\count289
+\l__siunitx_unit_prefix_int=\count290
+\l__siunitx_unit_prefix_base_int=\count291
+\l__siunitx_unit_prefix_gram_int=\count292
+\l__siunitx_number_product_int=\count293
+\c__siunitx_one_fill_skip=\skip65
+\l__siunitx_table_unit_align_skip=\skip66
 \l__siunitx_table_exponent_dim=\dimen278
 \l__siunitx_table_integer_dim=\dimen279
 \l__siunitx_table_mantissa_dim=\dimen280
@@ -966,147 +983,146 @@ Package: l3keys2e 2017/09/18 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_post_box=\box63
 \l__siunitx_table_mantissa_box=\box64
 \l__siunitx_table_result_box=\box65
-\l__siunitx_table_number_align_skip=\skip58
-\l__siunitx_table_text_align_skip=\skip59
+\l__siunitx_table_number_align_skip=\skip67
+\l__siunitx_table_text_align_skip=\skip68
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7247.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareSIPostPower with sig. 'mm' on line 7250.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7250.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7253.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7253.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIPrePower with sig. 'mm' on line 7256.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7256.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIQualifier with sig. 'mm' on line 7259.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7259.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7262.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7262.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7265.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7265.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7280.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7268.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \num with sig. 'om' on line 7289.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7283.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7298.
+. Defining command \num with sig. 'om' on line 7292.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrange with sig. 'omm' on line 7307.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7301.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7319.
+. Defining command \numrange with sig. 'omm' on line 7310.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrange with sig. 'ommm' on line 7331.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7322.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SI with sig. 'omom' on line 7343.
+. Defining command \SIrange with sig. 'ommm' on line 7334.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \sisetup with sig. 'm' on line 7346.
+. Defining command \SI with sig. 'omom' on line 7346.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \tablenum with sig. 'om' on line 7361.
+. Defining command \sisetup with sig. 'm' on line 7349.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \si with sig. 'om' on line 7373.
+. Defining command \tablenum with sig. 'om' on line 7364.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numInBookmark with sig. 'om' on line 7420.
+. Defining command \si with sig. 'om' on line 7376.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \numrangeInBookmark with sig. 'omm' on line 7422.
+. Defining command \numInBookmark with sig. 'om' on line 7423.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIInBookmark with sig. 'omom' on line 7424.
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7425.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIlistInBookmark with sig. 'omm' on line 7426.
+. Defining command \SIInBookmark with sig. 'omom' on line 7427.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7428.
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7429.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \siInBookmark with sig. 'om' on line 7429.
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7431.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7432.
 .................................................
 \g__file_internal_ior=\read2
 
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator.sty
-Package: translator 2010/06/12 ver 1.10
-
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/translator-language-
-mappings.tex))) (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2017/08/14 v0.5k Insert pages of external PDF documents (AM)
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count293
-\calc@Bcount=\count294
+\calc@Acount=\count294
+\calc@Bcount=\count295
 \calc@Adimen=\dimen287
 \calc@Bdimen=\dimen288
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count295
-\calc@Cskip=\skip62
+\calc@Ccount=\count296
+\calc@Cskip=\skip71
 )
 (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
@@ -1118,12 +1134,12 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 \AM@pageheight=\dimen290
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
-File: ppluatex.def 2017/08/14 v0.5k Pdfpages driver for LuaTeX (AM)
+File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
 )
 \AM@pagebox=\box66
 \AM@global@opts=\toks40
 \AM@toc@title=\toks41
-\c@AM@survey=\count296
+\c@AM@survey=\count297
 \AM@templatesizebox=\box67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
@@ -1133,7 +1149,7 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@old@col=\dimen293
 \TX@target=\dimen294
 \TX@delta=\dimen295
-\TX@cols=\count297
+\TX@cols=\count298
 \TX@ftn=\toks42
 )
 (/usr/share/texlive/texmf-dist/tex/latex/forest/forest.sty
@@ -1221,15 +1237,15 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 s.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
 )
-\pgf@intersect@solutions=\count298
+\pgf@intersect@solutions=\count299
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks43
 \pgfopts@list@add@b@toks=\toks44
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
 )
 (/usr/share/texlive/texmf-dist/tex/latex/elocalloc/elocalloc.sty
 Package: elocalloc 2016/12/15 v0.03 local allocation for LaTeX 2015+ (DPC)
@@ -1245,7 +1261,7 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 (/usr/share/texlive/texmf-dist/tex/latex/inlinedef/inlinedef.sty
 Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 \ID@toks=\toks46
-\ID@count=\count300
+\ID@count=\count301
 )
 \ID@usercommands=\toks47
 .................................................
@@ -1258,26 +1274,26 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 . 
 . Defining command \ProvidesForestLibrary with sig. 'm O{}' on line 176.
 .................................................
-\safeloop@depth=\count301
-\safeRKloop@depth=\count302
+\safeloop@depth=\count302
+\safeRKloop@depth=\count303
 \forest@temp@dimen=\dimen296
-\forest@temp@count=\count303
-\forest@n=\count304
-\forest@temp@global@count=\count305
+\forest@temp@count=\count304
+\forest@n=\count305
+\forest@temp@global@count=\count306
 \forest@temp@toks=\toks48
-\forest@temparray@M=\count306
-\forest@temparray@N=\count307
-\forest@global@temparray@M=\count308
-\forest@global@temparray@N=\count309
-\forest@isnum@count=\count310
-\forest@isdim@nonintpart=\count311
+\forest@temparray@M=\count307
+\forest@temparray@N=\count308
+\forest@global@temparray@M=\count309
+\forest@global@temparray@N=\count310
+\forest@isnum@count=\count311
+\forest@isdim@nonintpart=\count312
 \forest@isdim@dimen=\dimen297
-\forest@sort@m=\count312
-\forest@sort@k=\count313
-\forest@sort@p=\count314
+\forest@sort@m=\count313
+\forest@sort@k=\count314
+\forest@sort@p=\count315
 \bracket@content=\toks49
 \bracket@afterthought=\toks50
-\forest@node@maxid=\count315
+\forest@node@maxid=\count316
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1289,15 +1305,15 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 . Defining command \forestdebugtypeouttree with sig. 'd() O{\forest@cn }' on
 . line 2348.
 .................................................
-\forest@process@left@M=\count316
-\forest@process@left@N=\count317
-\forest@process@right@M=\count318
-\forest@process@right@N=\count319
-\forest@process@saved@M=\count320
-\forest@process@saved@N=\count321
-\forest@process@result@M=\count322
-\forest@process@result@N=\count323
-\forest@process@n=\count324
+\forest@process@left@M=\count317
+\forest@process@left@N=\count318
+\forest@process@right@M=\count319
+\forest@process@right@N=\count320
+\forest@process@saved@M=\count321
+\forest@process@saved@N=\count322
+\forest@process@result@M=\count323
+\forest@process@result@N=\count324
+\forest@process@n=\count325
 \forest@nodewalk@branch@toks=\toks51
 \forest@nodewalk@shortsteps@resolution=\toks52
 \forest@do@dynamics=\toks53
@@ -1322,8 +1338,8 @@ Package: inlinedef 2008/07/10 v1.0 Inlined expansions within definitions
 . 
 . Defining command \Forest with sig. 's D(){} m' on line 8515.
 .................................................
-\forest@externalize@max@outer@n=\count325
-\forest@externalize@inner@n=\count326
+\forest@externalize@max@outer@n=\count326
+\forest@externalize@inner@n=\count327
 )
 (/usr/share/texlive/texmf-dist/tex/latex/forest/forest-lib-linguistics.sty
 Package: forest-lib-linguistics 2017/07/14 v0.1.2
@@ -1349,9 +1365,9 @@ Package: forest-lib-linguistics 2017/07/14 v0.1.2
 \pgftree@savechildx=\dimen313
 \pgftree@childy=\dimen314
 \pgftree@savechildy=\dimen315
-\pgftree@childi=\count327
-\pgftree@savechildi=\count328
-\pgftree@level=\count329
+\pgftree@childi=\count328
+\pgftree@savechildi=\count329
+\pgftree@level=\count330
 \pgftree@depth=\dimen316
 \pgf@subpic@hbox@children=\box90
 \pgf@subpic@minx@children=\dimen317
@@ -1376,30 +1392,30 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \arrowsize=\dimen323
 )) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip63
+\labelindent=\skip72
 \enit@outerparindent=\dimen324
 \enit@toks=\toks61
 \enit@inbox=\box91
-\enitdp@description=\count330
+\enitdp@description=\count331
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count331
+\lst@mode=\count332
 \lst@gtempboxa=\box92
 \lst@token=\toks62
-\lst@length=\count332
+\lst@length=\count333
 \lst@currlwidth=\dimen325
-\lst@column=\count333
-\lst@pos=\count334
+\lst@column=\count334
+\lst@pos=\count335
 \lst@lostspace=\dimen326
 \lst@width=\dimen327
-\lst@newlines=\count335
-\lst@lineno=\count336
+\lst@newlines=\count336
+\lst@lineno=\count337
 \lst@maxwidth=\dimen328
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count337
-\lst@skipnumbers=\count338
+\c@lstnumber=\count338
+\lst@skipnumbers=\count339
 \lst@framebox=\box93
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -1407,10 +1423,6 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count339
-)
 (/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -1421,48 +1433,48 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 ) (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
-\cftparskip=\skip64
-\cftbeforetoctitleskip=\skip65
-\cftaftertoctitleskip=\skip66
-\cftbeforepartskip=\skip67
-\cftpartnumwidth=\skip68
-\cftpartindent=\skip69
-\cftbeforechapskip=\skip70
-\cftchapindent=\skip71
-\cftchapnumwidth=\skip72
-\cftbeforesecskip=\skip73
-\cftsecindent=\skip74
-\cftsecnumwidth=\skip75
-\cftbeforesubsecskip=\skip76
-\cftsubsecindent=\skip77
-\cftsubsecnumwidth=\skip78
-\cftbeforesubsubsecskip=\skip79
-\cftsubsubsecindent=\skip80
-\cftsubsubsecnumwidth=\skip81
-\cftbeforeparaskip=\skip82
-\cftparaindent=\skip83
-\cftparanumwidth=\skip84
-\cftbeforesubparaskip=\skip85
-\cftsubparaindent=\skip86
-\cftsubparanumwidth=\skip87
-\cftbeforeloftitleskip=\skip88
-\cftafterloftitleskip=\skip89
-\cftbeforefigskip=\skip90
-\cftfigindent=\skip91
-\cftfignumwidth=\skip92
+\cftparskip=\skip73
+\cftbeforetoctitleskip=\skip74
+\cftaftertoctitleskip=\skip75
+\cftbeforepartskip=\skip76
+\cftpartnumwidth=\skip77
+\cftpartindent=\skip78
+\cftbeforechapskip=\skip79
+\cftchapindent=\skip80
+\cftchapnumwidth=\skip81
+\cftbeforesecskip=\skip82
+\cftsecindent=\skip83
+\cftsecnumwidth=\skip84
+\cftbeforesubsecskip=\skip85
+\cftsubsecindent=\skip86
+\cftsubsecnumwidth=\skip87
+\cftbeforesubsubsecskip=\skip88
+\cftsubsubsecindent=\skip89
+\cftsubsubsecnumwidth=\skip90
+\cftbeforeparaskip=\skip91
+\cftparaindent=\skip92
+\cftparanumwidth=\skip93
+\cftbeforesubparaskip=\skip94
+\cftsubparaindent=\skip95
+\cftsubparanumwidth=\skip96
+\cftbeforeloftitleskip=\skip97
+\cftafterloftitleskip=\skip98
+\cftbeforefigskip=\skip99
+\cftfigindent=\skip100
+\cftfignumwidth=\skip101
 \c@lofdepth=\count340
 \c@lotdepth=\count341
-\cftbeforelottitleskip=\skip93
-\cftafterlottitleskip=\skip94
-\cftbeforetabskip=\skip95
-\cfttabindent=\skip96
-\cfttabnumwidth=\skip97
+\cftbeforelottitleskip=\skip102
+\cftafterlottitleskip=\skip103
+\cftbeforetabskip=\skip104
+\cfttabindent=\skip105
+\cfttabnumwidth=\skip106
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box94
-\beforetitleunit=\skip98
-\aftertitleunit=\skip99
+\beforetitleunit=\skip107
+\aftertitleunit=\skip108
 \ttl@plus=\dimen329
 \ttl@minus=\dimen330
 \ttl@toksa=\toks63
@@ -1475,7 +1487,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -1519,23 +1531,23 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 \Hy@pagecounter=\count343
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count344
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `final' set `true' on input line 4374.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
-Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing ON on input line 4516.
+Package hyperref Info: Option `final' set `true' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing ON on input line 4527.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
+Package hyperref Info: Bookmarks ON on input line 4762.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
 Package: backref 2016/05/21 v1.39 Bibliographical back referencing
@@ -1546,32 +1558,31 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
 ))
 \c@Hy@tempcnt=\count345
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen335
 \Fld@menulength=\count346
 \Field@Width=\dimen336
 \Fld@charsize=\dimen337
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing ON on input line 6371.
-Package hyperref Info: Link coloring ON on input line 6376.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing ON on input line 6382.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
 \Hy@abspage=\count347
 \c@Item=\count348
 \c@Hfootnote=\count349
 )
-
-Package hyperref Message: Driver (autodetected): hluatex.
+Package hyperref Info: Driver (autodetected): hluatex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
-File: hluatex.def 2017/03/14 v6.85a Hyperref driver for luaTeX
+File: hluatex.def 2018/02/06 v6.86b Hyperref driver for luaTeX
 \Fld@listcount=\count350
 \c@bookmark@seq@number=\count351
-\Hy@SectionHShift=\skip100
+\Hy@SectionHShift=\skip109
 )
 (/usr/share/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
@@ -1589,10 +1600,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count352
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/09/20 v4.33 (NLCT)
+Package: glossaries 2017/11/14 v4.35 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
 \@glsmfirst=\toks64
 \@glsmrest=\toks65
 )
@@ -1603,11 +1614,11 @@ Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 Package: xfor 2009/02/05 v1.05 (NLCT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
+Package: datatool-base 2017/11/12 v2.29 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip101
+\@mathmargin=\skip110
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1649,8 +1660,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen344
 \lineht@=\dimen345
 \@envbody=\toks68
-\multlinegap=\skip102
-\multlinetaggap=\skip103
+\multlinegap=\skip111
+\multlinetaggap=\skip112
 \mathdisplay@stack=\toks69
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -1660,7 +1671,7 @@ Package: substr 2009/10/20 v1.2 Handle substrings
 \c@su@anzahl=\count365
 )
 (/usr/share/texlive/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
+Package: datatool-fp 2017/11/12 v2.29 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
 Package: fp 1995/04/02
@@ -1712,7 +1723,7 @@ Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks70
 \@dtl@tmpcount=\count377
-\dtl@tmplength=\skip104
+\dtl@tmplength=\skip113
 \dtl@sortresult=\count378
 \@dtl@numgrpsepcount=\count379
 \@dtl@datatype=\count380
@@ -1722,9 +1733,9 @@ Package: fp-eval 1995/04/03
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-
 307.sty
-Package: glossaries-compatible-307 2017/09/20 v4.33 (NLCT)
+Package: glossaries-compatible-307 2017/11/14 v4.35 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/tracklang/tracklang.sty
-Package: tracklang 2017/03/25 v1.3.4 (NLCT) Track Languages
+Package: tracklang 2018/02/21 v1.3.5 (NLCT) Track Languages
 
 (/usr/share/texlive/texmf-dist/tex/generic/tracklang/tracklang.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries-english/glossaries-english.
@@ -1733,7 +1744,7 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count384
 \@gls@tmpb=\toks71
-\gls@tmplen=\skip105
+\gls@tmplen=\skip114
 \glskeylisttok=\toks72
 \glslabeltok=\toks73
 \glsshorttok=\toks74
@@ -1741,19 +1752,19 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.st
 y
-Package: glossary-hypernav 2017/09/20 v4.33 (NLCT)
+Package: glossary-hypernav 2017/11/14 v4.35 (NLCT)
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
-Package: glossary-list 2017/09/20 v4.33 (NLCT)
-\glslistdottedwidth=\skip106
+Package: glossary-list 2017/11/14 v4.35 (NLCT)
+\glslistdottedwidth=\skip115
 ) (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
-Package: glossary-long 2017/09/20 v4.33 (NLCT)
+Package: glossary-long 2017/11/14 v4.35 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip107
-\LTright=\skip108
-\LTpre=\skip109
-\LTpost=\skip110
+\LTleft=\skip116
+\LTright=\skip117
+\LTpre=\skip118
+\LTpost=\skip119
 \LTchunksize=\count385
 \LTcapwidth=\dimen346
 \LT@head=\box97
@@ -1766,19 +1777,19 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count389
 \LT@p@ftn=\toks76
 )
-\glsdescwidth=\skip111
-\glspagelistwidth=\skip112
+\glsdescwidth=\skip120
+\glspagelistwidth=\skip121
 )
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
-Package: glossary-super 2017/09/20 v4.33 (NLCT)
+Package: glossary-super 2017/11/14 v4.35 (NLCT)
 
 (/usr/share/texlive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count390
 \ST@wd=\dimen347
-\ST@rightskip=\skip113
-\ST@leftskip=\skip114
-\ST@parfillskip=\skip115
+\ST@rightskip=\skip122
+\ST@leftskip=\skip123
+\ST@parfillskip=\skip124
 \ST@pageleft=\dimen348
 \ST@headht=\dimen349
 \ST@tailht=\dimen350
@@ -1792,8 +1803,8 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@pbox=\box101
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
-Package: glossary-tree 2017/09/20 v4.33 (NLCT)
-\glstreeindent=\skip116
+Package: glossary-tree 2017/11/14 v4.35 (NLCT)
+\glstreeindent=\skip125
 ))
 (./glossaries.tex)
 \glswrite=\write5
@@ -1801,12 +1812,12 @@ Package: glossary-tree 2017/09/20 v4.33 (NLCT)
 
 \openout6 = nwu_unofficial_latex.glo
 Package glossaries Info: Writing glossary file nwu_unofficial_latex.glo on input
- line 84.
+ line 85.
 \glo@abbreviation@file=\write7
 
 \openout7 = nwu_unofficial_latex.ata
 Package glossaries Info: Writing glossary file nwu_unofficial_latex.ata on input
- line 84.
+ line 85.
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
@@ -1818,36 +1829,36 @@ File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
 ) (./nwu_unofficial_latex.aux)
 \openout1 = nwu_unofficial_latex.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 106.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 126.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 126.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 106.
-LaTeX Font Info:    Try loading font information for MDB+cmr on input line 106.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 126.
+LaTeX Font Info:    Try loading font information for MDB+cmr on input line 126.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 106.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
-LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1906,7 +1917,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
 8.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
-,.JBIG2,.JB2 ,.eps]
+,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -1926,29 +1937,29 @@ Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
-ic-dictionary/translator-basic-dictionary-English.dict
+(/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
+-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
-File: siunitx-abbreviations.cfg 2017/08/02 v2.7j siunitx: Abbreviated units
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \celsius on input line 106.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 106.
+LaTeX Info: Redefining \celsius on input line 126.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 126.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 106.
-Package gensymb Info: Using \Omega for \ohm on input line 106.
+LaTeX Info: Redefining \ohm on input line 126.
+Package gensymb Info: Using \Omega for \ohm on input line 126.
 
 Package gensymb Warning: Not defining \micro.
 
 \AtBeginShipoutBox=\box103
 \c@lstlisting=\count397
-Package backref Info: ** backref set up for natbib ** on input line 106.
-Package hyperref Info: Link coloring ON on input line 106.
+Package backref Info: ** backref set up for natbib ** on input line 126.
+Package hyperref Info: Link coloring ON on input line 126.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1957,53 +1968,53 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count398
 )
-LaTeX Info: Redefining \ref on input line 106.
-LaTeX Info: Redefining \pageref on input line 106.
-LaTeX Info: Redefining \nameref on input line 106.
+LaTeX Info: Redefining \ref on input line 126.
+LaTeX Info: Redefining \pageref on input line 126.
+LaTeX Info: Redefining \nameref on input line 126.
 \c__siunitx_mathsf_int=\count399
-LaTeX Font Info:    Try loading font information for OT1+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for OT1+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/ot1mdugm.fd
 File: ot1mdugm.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdugm.
 )
-LaTeX Font Info:    Try loading font information for OML+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for OML+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/omlmdugm.fd
 File: omlmdugm.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdugm.
 )
-LaTeX Font Info:    Try loading font information for OMS+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for OMS+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/omsmdugm.fd
 File: omsmdugm.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdugm.
 )
-LaTeX Font Info:    Try loading font information for OMX+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for OMX+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/omxmdugm.fd
 File: omxmdugm.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdugm.
 )
-LaTeX Font Info:    Try loading font information for MDA+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for MDA+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/mdamdugm.fd
 File: mdamdugm.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdugm.
 )
-LaTeX Font Info:    Try loading font information for MDB+mdugm on input line 106
+LaTeX Font Info:    Try loading font information for MDB+mdugm on input line 126
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdugm/mdbmdugm.fd
 File: mdbmdugm.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdugm.
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 106.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 126.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count400
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 106.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 126.
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2040,20 +2051,32 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<../figures/nwu_title.png, id=7, pagebox=cropbox, 2350.7825pt x 961.5925pt>
-File: ../figures/nwu_title.png Graphic file (type png)
-<use ../figures/nwu_title.png>
-Package luatex.def Info: ../figures/nwu_title.png  used on input line 42. on inp
-ut line 42.
-Package luatex.def Info: Requested size: 574.74557pt x 235.10068pt on input line
- 42.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Font Warning: Font shape `T1/ptm/mb/n' undefined
+(Font)              using `T1/ptm/m/n' instead on input line 20.
+
+<../figures/orcid.png, id=8, 225.84375pt x 225.84375pt>
+File: ../figures/orcid.png Graphic file (type png)
+<use ../figures/orcid.png>
+Package luatex.def Info: ../figures/orcid.png  used on input line 25.
+(luatex.def)             Requested size: 14.39777pt x 14.39777pt.
+<../figures/nwu_logo.png, id=10, 243.0681pt x 83.1105pt>
+File: ../figures/nwu_logo.png Graphic file (type png)
+<use ../figures/nwu_logo.png>
+Package luatex.def Info: ../figures/nwu_logo.png  used on input line 46.
+(luatex.def)             Requested size: 227.62204pt x 77.82964pt.
 [1
 
 
 \openout5 = nwu_unofficial_latex.ist
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../figures/nwu_title.png>]) (../2preface&acknowledgements/declaration.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--120
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<../figures/orcid.png><../fig
+ures/nwu_logo.png>]) (../2preface&acknowledgements/declaration.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--140
 
  []
 
@@ -2063,95 +2086,31 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
 
 
 ] (../1titlepage&abstract/abstract.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
-[1]) (../2preface&acknowledgements/dedication.tex)
-warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
-[1
+! Undefined control sequence.
+l.5 \lipsum
+         
+? X
 
-] (../2preface&acknowledgements/preface.tex) [2
-
-] (./nwu_unofficial_latex.toc)
-\tf@toc=\write8
-
-\openout8 = nwu_unofficial_latex.toc
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.I'
-[1] (./nwu_unofficial_latex.lof)
-\tf@lof=\write9
-
-\openout9 = nwu_unofficial_latex.lof
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.II'
-[2] (./nwu_unofficial_latex.lot)
-\tf@lot=\write10
-
-\openout10 = nwu_unofficial_latex.lot
- (./nwu_unofficial_latex.gls)
-(./nwu_unofficial_latex.aot) [3]
-(../3background&introduction/background&introduction.tex
-Chapter 1.
-[1
-
-] [2]) [3] (../5aims&objectives/aims&objectives.tex [4]) [5] [6]
-(../4data&methods/data&methods.tex
-Chapter 2.
-) [7
-
-] (../6objective1/objective1.tex
-Chapter 3.
-) [8
-
-] (../7objective2/objective2.tex
-Chapter 4.
-) [9
-
-] (../8objective3/objective3.tex
-Chapter 5.
-[10
-
-] [11]) [12] [13] (../9discussion/conclusion.tex
-Chapter 6.
-) [14
-
-] (./nwu_unofficial_latex.bbl (./nwu_unofficial_latex.brf)
-\tf@brf=\write11
-
-\openout11 = nwu_unofficial_latex.brf
-
-Chapter 7.
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-) [15
-
-] (../appendix/appendix.tex) [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
- (./nwu_unofficial_latex.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
-Package rerunfilecheck Info: File `nwu_unofficial_latex.brf' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-)
 
 Here is how much of LuaTeX's memory you used:
- 51739 strings out of 494469
- 100000,1373583 words of node,token memory allocated
- 4037 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 2 glue, 552 kern, 135 attribute, 110 glue_spec, 135
- attribute_list, 1 write nodes
-   avail lists: 1:2,2:258,3:97,4:38,5:577,6:5093,7:928,8:21,9:149,10:10,11:436
- 53812 multiletter control sequences out of 65536+600000
- 200 fonts using 17177343 bytes
- 55i,6n,92p,2043b,868s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}</usr/share/texl
-ive/texmf-dist/fonts/type1/public/mathdesign/mdugm/md-gmr7y.pfb></home/henno/tex
-mf/fonts/type1/urw/garamond/ugmm8a.pfb></home/henno/texmf/fonts/type1/urw/garamo
-nd/ugmr8a.pfb></home/henno/texmf/fonts/type1/urw/garamond/ugmri8a.pfb>
-Output written on nwu_unofficial_latex.pdf (25 pages, 416816 bytes).
+ 51650 strings out of 494480
+ 100000,1373583 words of node,token memory allocated 1065 words of node memory still in use:
+   11 hlist, 1 vlist, 2 rule, 1 disc, 1 local_par, 1 dir, 15 glue, 9 kern, 4 pen
+alty, 9 glyph, 19 attribute, 111 glue_spec, 19 attribute_list, 2 pdf_colorstack 
+nodes
+   avail lists: 1:2,2:195,3:74,4:20,5:66,6:383,7:170,8:11,9:73,10:11,11:41
+ 54020 multiletter control sequences out of 65536+600000
+ 99 fonts using 10628935 bytes
+ 55i,6n,92p,2043b,764s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/base/8r.enc}</home/henno/texmf/fonts/type1/urw/ga
+ramond/ugmm8a.pfb></home/henno/texmf/fonts/type1/urw/garamond/ugmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on nwu_unofficial_latex.pdf (2 pages, 85040 bytes).
 
-PDF statistics: 224 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 131072)
- 144 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 45 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
