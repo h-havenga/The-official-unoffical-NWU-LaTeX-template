@@ -17,9 +17,8 @@
 \usepackage{lipsum}
 
 %% Graphics and float packages
-\usepackage{rotating} % To rotate a page if nessacary
 \usepackage{graphicx} % Required for including pictures
-\usepackage{wrapfig} % Allows in-line images
+\usepackage{wrapfig}  % Allows in-line images
 \usepackage{caption}
 \usepackage{subcaption}	
 \usepackage{float} % Allows putting an [H] to specify exact location 
@@ -35,7 +34,7 @@
 \usepackage{gensymb}
 \usepackage{pdfpages}
 \usepackage{tabularx}
-\usepackage[linguistics]{forest} % To create pretty diagrams
+\usepackage[linguistics]{forest}
 \usepackage{tikz-qtree}
 \usetikzlibrary{shapes,arrows}
 \usepackage{enumitem}
@@ -79,6 +78,11 @@
 \usepackage{bookmark}
 \bookmarksetup{numbered,open}
 
+%% Make figure and table captions small and textit
+\captionsetup{font=small}
+\captionsetup[figure]{labelfont=bf,textfont=it}
+\captionsetup[table]{labelfont=bf,textfont=it}
+
 %% Figure out the glossary
 \usepackage[toc]{glossaries}
 \newglossary{abbreviation}{aot}{ata}{List of Abbreviations}
@@ -117,10 +121,12 @@
 
 %% Pdf Metadata
 \hypersetup{
-pdftitle={Latex},
-pdfsubject={Not Computer Science},
-pdfauthor={Piet},
-pdfkeywords={typing}
+pdftitle={Characteristics of Hailstorms over the South-African
+highveld},
+pdfsubject={Extreme Weather},
+pdfauthor={Henno Havenga},
+pdfkeywords={hail, weather, climate, Highveld, wrf, convection, enso,
+soi}
 }
 
 % document begin
@@ -163,8 +169,7 @@ pdfkeywords={typing}
 %--------------------------------------------------------------------
 \pagenumbering{Roman}
 \tableofcontents % Include a table of contents
-%\addtocontents{toc}{~\hfill\textbf{Page}\par}
-\newpage % Begins the LoF on a new page  
+\newpage
 
 %--------------------------------------------------------------------
 %	List of Figures
@@ -174,7 +179,7 @@ pdfkeywords={typing}
 \newpage
 
 %--------------------------------------------------------------------
-%	List of Tabels
+%	List of Tables
 %--------------------------------------------------------------------
 \listoftables
 \addtocontents{lot}{~\hfill\textbf{Page}\par}
@@ -233,7 +238,7 @@ pdfkeywords={typing}
 %	Bibliography
 %--------------------------------------------------------------------
 \linespread{0.9} \normalsize
-\bibliographystyle{agsm} % Bibliography style
+\bibliographystyle{agsm}
 \renewcommand{\bibpreamble}{$\uparrow$ refers back to in text citations}
 \bibliography{../bibliography/master}
 \label{sec:bib}

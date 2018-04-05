@@ -7,44 +7,39 @@
 \begingroup
 {\fontfamily{ptm}\selectfont 
 
-%\begin{tikzpicture}[remember picture, overlay]
-%  \draw[lightgray][line width = 0.5pt] ($(current page.north west) +
-%  (0.37cm,-0.40cm)$) rectangle ($(current page.south east) + (-0.37cm,0.40cm)$);
-%\end{tikzpicture}
+% University logo
+\AddToShipoutPictureBG*{%
+  \AtPageUpperLeft{\raisebox{-\height}{\includegraphics[width=17cm]{nwu_logo_new.png}}}%
+}
 
+\vspace*{3.5cm}
 \newcommand{\HRule}{\rule{\linewidth}{0.0mm}} % Defines a new command for the horizontal lines
 \center % Center everything on the page
 
 % Title of your document
 \HRule \\[0.5cm]
-{\fontsize{32}{10}\selectfont \bfseries A title page per NWU rules with new colors and
-so forth}\\[0.2cm] 
+{\fontsize{32}{10}\selectfont \bfseries What is the meaning of life?}\\[0.2cm] 
 \HRule \\[1.25cm]
 
-{\huge \bfseries \href{www.hennohavenga.com}{H Havenga}} \\[0.2cm]
+{\huge \bfseries P Pompies} \\[0.2cm]
 \img{orcid.png}
 {\huge \bfseries
 \href{https://orcid.org/0000-0000-0000-0000}{orcid.org/0000-0000-0000-0000}}
 \\[2.20cm]
 
 {\LARGE Dissertation submitted in fulfilment of the requirements for
-the degree {\color{cyan!85} \textit{Master of Science in Environmental
+the degree {\color{cyan!85} \textit{Master of Science in Philosophical
 Sciences}} at the North-West University}\\[1.70cm]
 
-\raggedright 
-\LARGE Supervisor: \hspace{24mm} Dr P Pompies \\
-\LARGE Co-supervisor: \hspace{16mm} Prof J van der Merwe \\
-\LARGE Assistant supervisor: \hspace{1.4mm} Dr J de Plooi \\[1.5cm]
+%% This is very crude, you should find a better way to space it
+\centering
+\hspace{11.0mm} \LARGE Supervisor:    \hspace{19.0mm} Dr R Reindeer \\
+\hspace{6.0mm}  \LARGE Co-supervisor: \hspace{11.0mm} Prof S Claus \\
+\LARGE Assistant supervisor: Dr S Pole \\[1.5cm]
 
+\raggedright
 \LARGE Graduation May 2018\\
-\LARGE 1234567\\
-
-% University logo
-\vspace*{2cm}
-\noindent
-\begin{center}
-\makebox[\textwidth]{\includegraphics[width=8cm]{nwu_logo.png}}  
-\end{center}
+\LARGE 12345678\\
 
 }
 \endgroup

@@ -17,5 +17,6 @@
 \contentsline {subsection}{This is another subsection}{12}{subsection*.13}
 \contentsline {paragraph}{This a paragraph}{13}{paragraph*.14}
 \contentsline {chapter}{\numberline {6}Summary and conclusions}{14}{chapter.6}
-\contentsline {section}{Appendix A: Simulated Skew-T}{15}{section*.15}
-\contentsline {section}{Appendix B: Simulated Hodographs}{16}{section*.16}
+\contentsline {chapter}{\numberline {7}Bibliography}{15}{chapter.7}
+\contentsline {section}{Appendix A: Simulated Skew-T}{16}{section*.15}
+\contentsline {section}{Appendix B: Simulated Hodographs}{17}{section*.16}
